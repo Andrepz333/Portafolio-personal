@@ -52,7 +52,7 @@ body{
     text-shadow: 0 0 25px aqua;
 }
 .navbar-brand span{
-    text-shadow: 0 0 50px aqua)
+    text-shadow: 0 0 50px aqua;
 }
 .navbar-brand span{
     color: aqua;
@@ -281,23 +281,23 @@ h3 span{
 @keyframes words{
     0%,
     20%{
-        content: "Front-End Developer";
+        content: "Full-stack developer";
     }
     21%,
     40%{
-        content: "Developer software";
+        content: "Junior developer";
     }
     41%,
     60%{
-        content: "UI /UX Developer";
+        /* content: ""; */
     }
     61%,
     80%{
-        content: "Front-End Developer";
+        /* content:""; */
     }
     81%,
     100%{
-        content: "UI /UX Developer";
+        /* content:""; */
     }
 }
 @keyframes typing{
