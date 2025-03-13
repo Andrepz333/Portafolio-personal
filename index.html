@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
     <!--LINK CSS PROPIO-->
     <link rel="stylesheet" href="Style.css">
 
@@ -44,6 +43,9 @@
                       </li>
                       <li class="nav-item">
                         <a class="nav-link text-white" href="#education">Education</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#projects">Projects</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link text-white" href="#services">Services</a>
@@ -134,6 +136,15 @@
   </div>
 </section>
 
+        
+        <!--------SECCIÓN PERSONAL SKILLS-------->
+
+        <section class="pSkills" id="pSkills">
+          <h2 class="heading"> Personal Skills</h2>
+          <img src="img/pSkills.png" alt="">
+        </section>
+
+
         <!--------SECCIÓN EDUCACIÓN-------->
 
         <section class="education" id="education">
@@ -196,6 +207,221 @@
                 </div>
           </div>
         </section>
+
+
+        <!--SECCION SOFTWARE SKILLS-->
+
+        <section class="softSkills" id="softSkills">
+          <h2 class="heading">Software Skills</h2>
+          <div class="skills-container">
+            
+            <!-- Desarrollo Frontend -->
+            <div class="skill-category">
+              <h3>Frontend Development</h3>
+              <div class="skills">
+
+                <div class="skill-card" onclick="toggleSkill(this)" data-percent="70">
+                  <div class="progress-ring">
+                      <svg class="progress-svg" width="100" height="100">
+                          <circle class="progress-background" cx="50" cy="50" r="40"></circle>
+                          <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                      </svg>
+                      <span class="percentage">70%</span>
+                  </div>
+                  <img src="img/html5.png" alt="HTML">
+              </div>
+
+                <div class="skill-card" onclick="toggleSkill(this)" data-percent="75">
+                  <div class="progress-ring">
+                    <svg class="progress-svg" width="100" height="100">
+                        <circle class="progress-background" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                    </svg>
+                    <span class="percentage">75%</span>
+                </div>
+                  <img src="img/css.png" alt="CSS">
+                </div>
+
+                <div class="skill-card"  onclick="toggleSkill(this)" data-percent="40">
+                  <div class="progress-ring">
+                    <svg class="progress-svg" width="100" height="100">
+                        <circle class="progress-background" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                    </svg>
+                    <span class="percentage">40%</span>
+                </div>
+                  <img src="img/pngwing.com.png" alt="Tailwind">
+                </div>
+
+                <div class="skill-card" onclick="toggleSkill(this)" data-percent="">
+                  <div class="progress-ring">
+                    <svg class="progress-svg" width="100" height="100">
+                        <circle class="progress-background" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                    </svg>
+                    <span class="percentage">50%</span>
+                </div>
+                  <img src="img/bootstrap-logo-shadow.png" alt="Bootstrap">
+                </div>
+
+                <div class="skill-card" onclick="toggleSkill(this)" data-percent="">
+                  <div class="progress-ring">
+                    <svg class="progress-svg" width="100" height="100">
+                        <circle class="progress-background" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                    </svg>
+                    <span class="percentage">50%</span>
+                </div>
+                  <img src="img/react.png" alt="ReactJS">
+                </div>
+              </div>
+            </div>
+        
+            <!-- Desarrollo Backend -->
+            <div class="skill-category">
+              <h3>Backend Development</h3>
+              <div class="skills">
+                <div class="skill-card" onclick="toggleSkill(this)" data-percent="">
+                  <div class="progress-ring">
+                    <svg class="progress-svg" width="100" height="100">
+                        <circle class="progress-background" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                    </svg>
+                    <span class="percentage">50%</span>
+                </div>
+                  <img src="img/nodejs.png" alt="NodeJS">
+                </div>
+
+                <div class="skill-card" onclick="toggleSkill(this)" data-percent="10">
+                  <div class="progress-ring">
+                    <svg class="progress-svg" width="100" height="100">
+                        <circle class="progress-background" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                    </svg>
+                    <span class="percentage">10%</span>
+                </div>
+                  <img src="img/express.png" alt="ExpressJS">
+                </div>
+              </div>
+            </div>
+        
+            <!-- Bases de Datos -->
+            <div class="skill-category">
+              <div class="skill-databases">
+              <h3>Databases</h3>
+            </div>
+              <div class="skills">
+                <div class="skill-card" onclick="toggleSkill(this)" data-percent="40">
+                  <div class="progress-ring">
+                    <svg class="progress-svg" width="100" height="100">
+                        <circle class="progress-background" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                    </svg>
+                    <span class="percentage">40%</span>
+                </div>
+                  <img src="img/postgresql.png" alt="PostgreSQL">
+                </div>
+
+                <div class="skill-card" onclick="toggleSkill(this)" data-percent="40">
+                  <div class="progress-ring">
+                    <svg class="progress-svg" width="100" height="100">
+                        <circle class="progress-background" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                    </svg>
+                    <span class="percentage">40%</span>
+                </div>
+                  <img src="img/mongodb.png" alt="MongoDB">
+                </div>
+              </div>
+            </div>
+        
+            <!-- Lenguajes de Programación -->
+            <div class="skill-category">
+              <h3>Programming Lenguages</h3>
+              <div class="skills">
+                <div class="skill-card"onclick="toggleSkill(this)" data-percent="20">
+                  <div class="progress-ring">
+                    <svg class="progress-svg" width="100" height="100">
+                        <circle class="progress-background" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                    </svg>
+                    <span class="percentage">20%</span>
+                </div>
+                  <img src="img/javascript.png" alt="JavaScript">
+                </div>
+
+                <div class="skill-card"onclick="toggleSkill(this)" data-percent="15">
+                  <div class="progress-ring">
+                    <svg class="progress-svg" width="100" height="100">
+                        <circle class="progress-background" cx="50" cy="50" r="40"></circle>
+                        <circle class="progress-bar" cx="50" cy="50" r="40"></circle>
+                    </svg>
+                    <span class="percentage">15%</span>
+                </div>
+                  <img src="img/typescript.png" alt="TypeScript">
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </section>
+        
+
+       <!--------SECCIÓN MY PROYECTS-------->
+
+       <section class="projects" id="projects">
+        <h2 class="heading">My Latest Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" style="grid-area: p1;">
+                <img src="img/render(112).jpeg" alt="Project 1">
+                <div class="overlay">
+                    <h3>Project One</h3>
+                    <p>Brief description of the project.</p>
+                    <a href="https://yourproject1.com" target="_blank" class="btn">Ver más</a>
+                </div>
+            </div>
+            <div class="project-card" style="grid-area: p2;">
+                <img src="img/photografy.png" alt="Project 2">
+                <div class="overlay">
+                    <h3>Project Two</h3>
+                    <p>Brief description of the project.</p>
+                    <a href="img/" target="_blank" class="btn">Ver más</a>
+                </div>
+            </div>
+            <div class="project-card" style="grid-area: p3;">
+                <img src="img/render(12).jpeg" alt="Project 3">
+                <div class="overlay">
+                    <h3>Project Three</h3>
+                    <p>Brief description of the project.</p>
+                    <a href="https://yourproject3.com" target="_blank" class="btn">Ver más</a>
+                </div>
+            </div>
+            <div class="project-card" style="grid-area: p4;">
+                <img src="img/render(32).jpeg" alt="Project 4">
+                <div class="overlay">
+                    <h3>Project Four</h3>
+                    <p>Brief description of the project.</p>
+                    <a href="https://yourproject4.com" target="_blank" class="btn">Ver más</a>
+                </div>
+            </div>
+            <div class="project-card" style="grid-area: p5;">
+                <img src="img/beautiful-butterfly-nature.jpg" alt="Project 5">
+                <div class="overlay">
+                    <h3>Project Five</h3>
+                    <p>Brief description of the project.</p>
+                    <a href="https://yourproject5.com" target="_blank" class="btn">Ver más</a>
+                </div>
+            </div>
+            <div class="project-card" style="grid-area: p6;">
+                <img src="img/animals.jpg" alt="Project 6">
+                <div class="overlay">
+                    <h3>Project Six</h3>
+                    <p>Brief description of the project.</p>
+                    <a href="https://yourproject6.com" target="_blank" class="btn">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
         <!--------SECCIÓN SERVICES-------->
 
@@ -450,12 +676,6 @@
         </p>
       </footer>
 
-      <!---------LINKS SCRIPT--------->
-
-      <!--LINK LIBRERIA JQUERY-->
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
      <!--LINKS SCRIPT BOOTSTRAP-->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -463,7 +683,7 @@
 
      <!--LINK SCRIPT PROPIO-->
 
-    <link rel="stylesheet" href="Script.js">
+     <script src="Script.js"></script>
 
 </body>
 </html>
